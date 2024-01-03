@@ -1,4 +1,45 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+    font-size: 50px;
+}
+#stopwatch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+    font-size: 50px;
+}
+#timers{
+    font-size: 30px;
+    display: flex;
+}
+#stopwatch button{
+    width: 60px;
+    height: 25px;
+    background-color: blueviolet;
+}
+#stopwatch{
+    display: none;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(212, 231, 34, 0.542);
 }
